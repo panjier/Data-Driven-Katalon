@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php')
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Register/Page_Selenium Practice - Student Registration Form/a_Register'))
 
 WebUI.setText(findTestObject('Register/Page_Selenium Practice - Register/input_First Name_firstname'), 'panji')
@@ -30,6 +32,8 @@ WebUI.setText(findTestObject('Register/Page_Selenium Practice - Register/input_L
 WebUI.setText(findTestObject('Register/Page_Selenium Practice - Register/input_UserName_username'), 'panjier')
 
 WebUI.setEncryptedText(findTestObject('Register/Page_Selenium Practice - Register/input_Password_password'), 'RigbBhfdqOBGNlJIWM1ClA==')
+
+WebUI.click(findTestObject('Register/Page_Selenium Practice - Register/input_Password_btn btn-primary'))
 
 WebUI.closeBrowser()
 
