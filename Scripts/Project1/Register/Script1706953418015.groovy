@@ -25,13 +25,13 @@ WebUI.maximizeWindow()
 
 WebUI.click(findTestObject('Register/Page_Selenium Practice - Student Registration Form/a_Register'))
 
-WebUI.setText(findTestObject('Register/Page_Selenium Practice - Register/input_First Name_firstname'), 'panji')
+WebUI.setText(findTestObject('Register/Page_Selenium Practice - Register/input_First Name_firstname'), firstName)
 
-WebUI.setText(findTestObject('Register/Page_Selenium Practice - Register/input_Last Name_lastname'), 'erlangga')
+WebUI.setText(findTestObject('Register/Page_Selenium Practice - Register/input_Last Name_lastname'), lastName)
 
-WebUI.setText(findTestObject('Register/Page_Selenium Practice - Register/input_UserName_username'), 'panjier')
+WebUI.setText(findTestObject('Register/Page_Selenium Practice - Register/input_UserName_username'), username)
 
-WebUI.setEncryptedText(findTestObject('Register/Page_Selenium Practice - Register/input_Password_password'), 'RigbBhfdqOBGNlJIWM1ClA==')
+WebUI.setEncryptedText(findTestObject('Register/Page_Selenium Practice - Register/input_Password_password'), password)
 
 WebUI.click(findTestObject('Register/Page_Selenium Practice - Register/input_Password_btn btn-primary'))
 
